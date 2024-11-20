@@ -19,7 +19,7 @@ Optional [ROUTE] '/me'
 [Response] => Dicoding username.
 */
 app.get('/me', (_req, res) => {
-    res.send('<a href="https://www.dicoding.com/users/attaaar/academies" target="blank">attaaar</a>');
+    res.send('attaaar');
 });
 
 app.listen(PORT, HOST);
